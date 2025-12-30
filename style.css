@@ -1,0 +1,96 @@
+/*Reset*/
+*{
+  margine: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Tahoma', sans-serif;
+  line-height: 1.6;
+  background-color: #FDF6E3; /*light for al page*/
+  color: #1c39bb; /*persian blue main texts*/
+}
+/*container*/
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*header*/
+header{
+  background-color: #1c39bb; /*persian blue*/
+  color: #F4C430; /*Saffron gold*/
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+  margin-left: 20px;
+}
+
+header nav ul li {
+  display: inline;
+  margine-left: 20px;
+}
+header nav ul li a {
+  color: #F4C430; /*Saffron gold*/
+  text-decoration: none;
+}
+
+/*hero section*/
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #40e0d0; /*Turquoise blue*/
+  color: #D70040; /*iRANIAN rED*/
+  background-image: radial-gradient(circle at 20% 20%, #F4C430 10%, #40e0d0 20%, #d70040 30%);
+  /*simple like Bote cheghe*/
+}
+
+.hero h2 {
+  font-size: 36px;
+  margine-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/*products section*/
+.products {
+  padding: 50px 20px;
+  background-color: #FDF6E3; /*light background*/
+}
+
+.product-gride {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  background-color: #F4C430; /*saffron Gold*/
+  color: #1c39bb; /*persian blue*/
+  border: 2px solid #d70040; /*Iranian red*/
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #D70040; /*iranian red*/
+color: #f4c430; /*Sffron gold*/
+}
